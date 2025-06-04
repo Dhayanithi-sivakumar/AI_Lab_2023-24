@@ -24,7 +24,9 @@ factorial(A,B) :-
 
 
 ### Output:
-![](Factorial.png)
+
+![1](https://github.com/user-attachments/assets/fb61f91c-1c86-4213-ba33-edb74f9c772b)
+
 
 
 ### Result:

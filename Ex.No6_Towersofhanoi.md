@@ -31,7 +31,11 @@ move(N,X,Y,Z) :-
     move(M,Z,Y,X).
 ```
 ### Output:
-![](Towersofhanoi.png)
+
+```
+![2](https://github.com/user-attachments/assets/9082b5d2-6db3-4bf9-9470-94cd5eef20b7)
+
+```
 
 
 ### Result:

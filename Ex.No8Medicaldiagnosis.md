@@ -1,6 +1,6 @@
 # Ex.No: 8  Logic Programming –  Medical Diagnosis Expert System
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE:   12/09/2025                                                                         
+### REGISTER NUMBER :  212222060045
 ### AIM: 
 Write a Prolog program to build a medical Diagnosis Expert System.
 ###  Algorithm:
@@ -15,17 +15,42 @@ Write a Prolog program to build a medical Diagnosis Expert System.
 
 ### Program:
 
-
-
-
-
-
-
-
-
+hypothesis(Patient,german_measles) :-
+    symptom(Patient,fever),
+    symptom(Patient,headache),
+    symptom(Patient,runny_nose),
+    symptom(Patient,rash).
+hypothesis(Patient,flu) :-
+    symptom(Patient,fever),
+    symptom(Patient,headache),
+    symptom(Patient,body_ache),
+    symptom(Patient,conjunctivitis),
+    symptom(Patient,chills),
+    symptom(Patient,sore_throat),
+    symptom(Patient,runny_nose),
+    symptom(Patient,cough).
+hypothesis(Patient,common_cold) :-
+    symptom(Patient,headache),
+    symptom(Patient,sneezing),
+    symptom(Patient,sore_throat).
+hypothesis(Patient,chicken_pox) :-
+    symptom(Patient,fever),
+    symptom(Patient,chills),
+    symptom(Patient,body_ache),
+    symptom(Patient,rash).
+hypothesis(Patient,measles) :-
+    symptom(Patient,cough),
+    symptom(Patient,sneezing),
+    symptom(Patient,runny_nose).
+symptom(raju,headache).
+symptom(raju,sneezing).
+symptom(raju,sore_throat).
 
 
 ### Output:
+<img width="949" height="188" alt="image" src="https://github.com/user-attachments/assets/3c42ca40-bd0c-4e1a-81de-1a8b41aaaf0c" />
+<img width="939" height="220" alt="image" src="https://github.com/user-attachments/assets/34492a40-5940-4bd0-ac63-d5e84f17c5b2" />
+
 
 
 
